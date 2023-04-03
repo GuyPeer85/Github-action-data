@@ -20,9 +20,9 @@ jobs:
         with:
           name: dist-files
           path: dist
-         # path: |
-         #  dist
-         #  package.json
+          # path: |
+          #  dist
+          #  package.json
   build:
     needs: test
     runs-on: ubuntu-latest
